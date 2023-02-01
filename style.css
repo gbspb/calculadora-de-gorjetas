@@ -1,0 +1,199 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+body.dark {
+  background: linear-gradient(#000, #212726);
+  color: #c4d8d1;
+}
+body.dark .label {
+  background-color: #61726e;
+}
+body.dark .ball {
+  background-color: #212726;
+}
+body.dark #container {
+  background-color: #212726;
+}
+body.dark #container p {
+  color: #c4d8d1;
+}
+body.dark #container .title {
+  background-color: transparent;
+  border: 2px solid #61726e;
+  color: #c4d8d1;
+}
+body.dark #container .formInput {
+  background-color: #212726;
+  color: #c4d8d1;
+  border: 2px solid #61726e;
+}
+body.dark #container .formInput:focus {
+  border: 2px solid #2e7d70;
+}
+body.dark #container .formSelect {
+  background-color: #212726;
+  color: #c4d8d1;
+  border: 2px solid #61726e;
+}
+body.dark #container .formSelect:focus {
+  border: 2px solid #2e7d70;
+}
+body.dark #container .formSubmit {
+  border: 2px solid #61726e;
+  background-color: transparent;
+  color: #61726e;
+}
+body.dark #container .formSubmit:hover {
+  border: 2px solid #2e7d70;
+  background-color: transparent;
+  color: #2e7d70;
+}
+body.dark #totalTip {
+  color: #2e7d70;
+}
+body.dark footer div a {
+  color: #61726e;
+}
+body.dark footer div a:hover {
+  color: #2e7d70;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(50deg, #e3c1e6, #b54fbf);
+  color: #512d53;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.switcher {
+  margin-left: 298px;
+}
+.switcher .label {
+  background-color: #a17da5;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+}
+.switcher .label .bi-moon-fill {
+  color: #88cffc;
+}
+.switcher .label .bi-brightness-high-fill {
+  color: #f6e631;
+}
+.switcher .ball {
+  background-color: #e3c1e6;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transition: transform 0.2s linear;
+}
+.switcher .checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.switcher .checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+#container {
+  height: 530px;
+  width: 368px;
+  margin: 50px auto;
+  padding-top: 2px;
+  background-color: #fef6ff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4392156863);
+  border-radius: 15px;
+}
+#container p {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+#container .title {
+  background-color: #a17da5;
+  color: #fef6ff;
+  margin: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+}
+#container .tipsForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#container .tipsForm .formInput {
+  background-color: #fef6ff;
+  width: 40px;
+  padding: 5px 5px 5px 8px;
+  border: 2px solid #a17da5;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+}
+#container .tipsForm .formInput:focus {
+  border: 2px solid #b54fbf;
+  outline: none;
+}
+#container .tipsForm .formSelect {
+  width: 180px;
+  padding: 5px;
+  border: 2px solid #a17da5;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+#container .tipsForm .formSelect:focus {
+  border: 2px solid #b54fbf;
+  outline: none;
+}
+#container .tipsForm .formSubmit {
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  margin: 30px auto;
+  border: none;
+  border-radius: 35px;
+  background-color: #a17da5;
+  width: 70px;
+  height: 70px;
+  font-size: 32px;
+  color: #fef6ff;
+}
+#container .tipsForm .formSubmit:hover {
+  transform: scale(1.1);
+  background-color: #b54fbf;
+}
+
+#totalTip {
+  color: #b54fbf;
+  text-align: center;
+  font-weight: 700;
+}
+
+footer div {
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: small;
+}
+footer div a {
+  text-decoration: none;
+  color: #512d53;
+}
+footer div a:hover {
+  color: #b54fbf;
+}
+
+/*# sourceMappingURL=style.css.map */

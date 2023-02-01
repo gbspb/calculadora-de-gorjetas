@@ -1,0 +1,77 @@
+$light-green: #c4d8d1;
+$medium-green: #2e7d70;
+$grayish-green: #61726e;
+$dark: #212726;
+
+body.dark {
+  background: linear-gradient(#000, $dark);
+  color: $light-green;
+
+  .label {
+    background-color: $grayish-green;
+  }
+
+  .ball {
+    background-color: $dark;
+  }
+
+  #container {
+    background-color: $dark;
+
+    p {
+      color: $light-green;
+    }
+
+    .title {
+      background-color: transparent;
+      border: 2px solid $grayish-green;
+      color: $light-green;
+    }
+
+    .formInput {
+      background-color: $dark;
+      color: $light-green;
+      border: 2px solid $grayish-green;
+
+      &:focus {
+        border: 2px solid $medium-green;
+      }
+    }
+
+    .formSelect {
+      background-color: $dark;
+      color: $light-green;
+      border: 2px solid $grayish-green;
+
+      &:focus {
+        border: 2px solid $medium-green;
+      }
+    }
+
+    .formSubmit {
+      border: 2px solid $grayish-green;
+      background-color: transparent;
+      color: $grayish-green;
+
+      &:hover {
+        border: 2px solid $medium-green;
+        background-color: transparent;
+        color: $medium-green;
+      }
+    }
+  }
+
+  #totalTip {
+    color: $medium-green;
+  }
+
+  footer div {
+    a {
+      color: $grayish-green;
+
+      &:hover {
+        color: $medium-green;
+      }
+    }
+  }
+}
