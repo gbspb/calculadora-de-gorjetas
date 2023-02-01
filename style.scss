@@ -110,6 +110,8 @@ body {
     }
 
     .formSelect {
+      background-color: $light;
+      color: $dark-lilac;
       width: 180px;
       padding: 5px;
       border: 2px solid $grayish-lilac;

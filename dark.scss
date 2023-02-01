@@ -6,6 +6,7 @@ $dark: #212726;
 body.dark {
   background: linear-gradient(#000, $dark);
   color: $light-green;
+  background-attachment: fixed;
 
   .label {
     background-color: $grayish-green;

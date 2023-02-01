@@ -3,6 +3,7 @@
 body.dark {
   background: linear-gradient(#000, #212726);
   color: #c4d8d1;
+  background-attachment: fixed;
 }
 body.dark .label {
   background-color: #61726e;
@@ -149,6 +150,8 @@ body {
   outline: none;
 }
 #container .tipsForm .formSelect {
+  background-color: #fef6ff;
+  color: #512d53;
   width: 180px;
   padding: 5px;
   border: 2px solid #a17da5;
