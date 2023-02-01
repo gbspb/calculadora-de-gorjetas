@@ -65,6 +65,7 @@ body.dark footer div a:hover {
 body {
   background: linear-gradient(50deg, #e3c1e6, #b54fbf);
   color: #512d53;
+  background-attachment: fixed;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
 }
